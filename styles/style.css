@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: rgb(200, 123, 255);
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(183, 183, 183);
+    box-shadow: 0px 0px 10px rgb(224, 224, 224);
+    background-color: rgb(211, 189, 255);
+}
+
+.row {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input {
+    transform: scale(1.2);
+}
+
+label {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.btn {
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 0px 5px rgb(183, 183, 183);
+    box-shadow: 0px 0px 10px rgb(224, 224, 224);
+    background-color: rgb(200, 123, 255);
+    transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+    background-color: rgb(141, 141, 141);
+}
+
+/* 1st Page */
+
+p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+a {
+    display: block;
+    padding: 12px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
